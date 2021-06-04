@@ -3,9 +3,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-
-import { Image, InputGroup, FormControl } from "react-bootstrap";
-
+import { Image ,InputGroup, FormControl } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./user_info_nav.css"
 

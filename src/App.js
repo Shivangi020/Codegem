@@ -8,8 +8,8 @@ import Pagination from './Components/page/pagination';
 function App() {
   return (
     <div className="App">
-     {/* <Header/> */}
-     <User_info_nav/>
+     <Header/>
+     {/* <User_info_nav/> */}
      <Card/>
      <Pagination/>
     </div>

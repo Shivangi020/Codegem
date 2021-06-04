@@ -15,8 +15,8 @@ const CardItem = (props) => {
     <div class="pic">
       <img src={user_image}/>
     </div>
-    <div class="name">Name</div>
-    <div class="desc">Branch</div>
+    <div class="name">Name{props.name}</div>
+    <div class="desc">Branch{props.Branch}</div>
     <div class="sm">
       <a href="#" class="fab fa-facebook-f"><FaFacebook/>{props.Facebook}</a>
       <a href="#" class="fab fa-linkedn"><FaLinkedin/>{props.linkedn}</a>

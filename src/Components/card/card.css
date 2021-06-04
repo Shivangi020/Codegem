@@ -9,10 +9,9 @@ body{
     max-width: 1200px;
     
     display: block;
-    padding-left: 20px;
-    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
 }
-
 .c{
     position: relative;
 }
@@ -52,7 +51,7 @@ body{
   }
   
   .card-header{
-      margin-top: 40px;
+      /* margin-top: 40px; */
     background: #ffffff;
     padding: 20px 40px;
     /* margin-left: 20px; */
@@ -60,7 +59,7 @@ body{
   
   .pic{
     display: inline-block;
-    padding: 8px;
+    /* padding: 8px; */
     margin: auto;
     border-radius: 100%;
     /* background-size: 200% 200%; */
@@ -68,7 +67,7 @@ body{
   }
   
 .pic img{
-    border:3px solid rgb(143, 142, 142);
+    border:3px solid rgb(255, 255, 255);
     display: block;
     width: 150px;
     height: 150px;
@@ -79,8 +78,8 @@ body{
   .name{
    color: #ec7c2d;
     font-size: 1.5rem;
-    font-weight: 600;
-    margin: 10px 0;
+    font-weight: 400;
+   
   }
   
   .desc{
@@ -97,7 +96,8 @@ body{
   .sm a{
     color: #000000;
     width: 56px;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin-top: 0;
     
   }
 

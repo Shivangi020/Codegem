@@ -14,17 +14,17 @@ body{
 }
 
 .banner .content{
-  max-width: 700px;
+  /* max-width: 700px; */
+  display: flex;
 }
 .b{
-
 margin-bottom:10px ;
-font-size: 4em;
+/* font-size: 4em; */
 color: black;
 
 }
-.banner .content h2{
-  font-size: 3em;
+.banner .content h1{
+  font-size: 3.5em;
 }
 .banner .content p{
   margin-top: 10px;
@@ -34,21 +34,36 @@ color: black;
 
 .banner .image{
   max-width: 400px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
 }
 
-@media only screen and (max-width:794px){
-  .banner .content h2 {
-    font-size: 2em;
+.t{
+  margin-left: 20px;
+}
+.t h1{
+ letter-spacing: 2px;
+ text-align: center;
+}
+.t p{
+  text-align: center;
+}
+@media only screen and (max-width:872px){
+  .banner .content{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner .content h1 {
+    font-size: 3em;
   }
   .banner .content p{
-    
-    font-size: 1em;
+    font-size: 1.5em;
 }
 .banner{
   justify-content: center;
   padding: 150px 20px 50px;
-  flex-direction:column;
+  
 }
 .banner .image{
   max-width: 300px;
@@ -59,8 +74,8 @@ color: black;
 }
 
 @media only screen and (max-width:500px){
-  .banner .content h2 {
-    font-size: 1.5em;
+  .banner .content h1 {
+    font-size: 2.5em;
   }
   .banner .content p{
     
@@ -68,7 +83,7 @@ color: black;
 }
 .banner{
   justify-content: center;
-  padding: 150px 20px 50px;
+  /* padding: 150px 20px 50px; */
   flex-direction:column;
 }
 .banner .image{
