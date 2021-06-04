@@ -37,17 +37,20 @@ body{
 
 
   .profile-card{
-    /* width: 350px; */
+    /* width: 300px; */
     text-align: center;
     /* border-radius: 8px; */
     overflow: hidden;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-left: 20px;
+    margin-right: 20px;
   }
   
   .card-header{
       margin-top: 40px;
     background: #f19655;
     padding: 20px 40px;
+    /* margin-left: 20px; */
   }
   
   .pic{

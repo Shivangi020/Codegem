@@ -8,7 +8,7 @@ import Pagination from './Components/page/pagination';
 function App() {
   return (
     <div className="App">
-     <Header/>
+     {/* <Header/> */}
      <User_info_nav/>
      <Card/>
      <Pagination/>
