@@ -1,87 +1,201 @@
-.nav_cot{
-    height: auto;
-    margin: 0 auto;
-    max-width: 1200px;
-    /* background-color: #ec7c2d; */
-    display: block;
-    padding-left: 20px;
-    padding-right: 20px;
-
+#stats {  
+  background-color: #eba91c;
+  border-radius: 1rem;
+  padding: auto;
+  height: 50%;
 }
-.k{
-    position: relative;
+#cw {
+  color: whitesmoke;
 }
-
-.nav_option_cot{
-    display: flex;
-    margin: 0 auto;
-    margin-top: 50px;
+#your-life-class {
+  padding-top: 10%;
 }
 
-.cot{
-    height: auto;
-    width: 99%;
-    max-width: 99%;
-    margin: 0 auto;
-    display: flex;
-    align-content: center;
-    justify-content: center;
+.footer {
+  background-color: #1d88cd2e;
+}
+#changec {
+  color: #eba91c;
+}
+#recruitment-text {
+  text-align: center;
 }
 
-/* .navbar {
-    overflow: hidden;
-    /* background-color: #ec7c2d; */
- 
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
+#po1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.career-section img {
+  margin: 0 auto;
+  display: block;
+}
+.career-section {
+  padding: 200px 0px 100px 0px;
+  background-color: white;
+}
+.career-section h2 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.career-section h2 span {
+  color: #b6bbbe;
+  font-size: 80px;
+}
+.career-section img {
+  margin: 0 auto;
+  display: block;
+}
+
+.your-life {
+  padding: 100px 0px;
+}
+.your-box {
+  background-color: #fff;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px #ececec;
+}
+.your-box h3 {
+  font-size: 18px;
+}
+.your-box p {
+  font-size: 14px;
+}
+.marg-top {
+  margin-top: 50px;
+}
+.your-life h2 {
+  font-size: 60px;
+  font-weight: 600;
+  color: black;
+}
+.your-life span {
+  font-size: 60px;
+  font-weight: 600;
+  color: #eba91c;
+}
+
+
+.join {
+  padding: 70px 0px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.join h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #ff8947;
+}
+
+.join-box button {
+  font-size: 14px;
+  color: #fff;
+  background-color: #eba91c;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 30px;
+  display: inline-block;
+  transition: 0.9s;
+}
+
+#openi {
+  text-align: center;
+}
+
+.learn-process {
+  padding: 100px 0px;
+}
+.learn-process h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #000;
+}
+.learn-process h2 {
+  font-size: 22px;
+  color: #000;
+}
+
+.learn-box {
+  height: 100%;
+  padding: 20px;
+  border-radius: 10%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#switch1 {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: violet !important;
+  background-color: #eba91c !important;
+}
+
+.custom-control-input:active ~ .custom-control-label::before {
+  background-color: #eba91c !important;
+  border-color: violet !important;
+}
+
+.achievement {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.img-responsive {
+  max-height: 100px;
+  max-width: 30%;
+  overflow: visible;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  #mob-apply {
+    padding-top: -20px;
+    padding-bottom: 20px;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 4px 6px;
-    background-color: #ec7c2d;
-    font-family: inherit;
-    margin: 10px;
-  }
-  
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(255, 188, 125);
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
   }
 
-  @media only screen and (max-width: 400px) {
-    .dropdown {
-        float:none;
-       
-      }
+  .career-section h2 {
+    font-size: 30px;
+    font-weight: 600;
   }
+  .career-section h2 span {
+    color: #b6bbbe;
+    font-size: 60px;
+  }
+  .marg-top {
+    margin-top: 0px;
+  }
+  .your-box{
+    margin-top: 0px;
+  }
+  #po1 {
+    padding: 10px 10px 10px 10px;
+  }
+  #stats h1 {
+    font-size: 1em;
+  }
+  #stats h6 {
+    font-size: 0.5em;
+  }
+  .col-12{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}

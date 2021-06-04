@@ -1,7 +1,7 @@
 import React from 'react'
 import "./card.css"
 import user_image from "../image/image.jpg";
-import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaEnvelope, FaFacebook, FaLinkedin } from 'react-icons/fa';
 /**
 * @author
 * @function Card
@@ -18,9 +18,9 @@ const CardItem = (props) => {
     <div class="name">Name</div>
     <div class="desc">Branch</div>
     <div class="sm">
-      <a href="#" class="fab fa-facebook-f"><FaFacebook/></a>
-      <a href="#" class="fab fa-linkedn"><FaLinkedin/></a>
-      <a href="#" class="fab fa-github"><FaGithub/></a>
+      <a href="#" class="fab fa-facebook-f"><FaFacebook/>{props.Facebook}</a>
+      <a href="#" class="fab fa-linkedn"><FaLinkedin/>{props.linkedn}</a>
+      <a href="#" class="fab fa-github"><FaEnvelope/>{props.mail}</a>
       
     </div>
     </div>
