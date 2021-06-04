@@ -1,0 +1,27 @@
+.nav_cot{
+    height: auto;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color:rgb(97, 65, 65);
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.k{
+    position: relative;
+}
+
+.nav_option_cot{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.cot{
+    height: auto;
+    width: 99%;
+    max-width: 99%;
+    margin: 0 auto;
+    display: flex;
+}
