@@ -33,16 +33,16 @@
     /* background-color: #ec7c2d; */
  
   .navbar a {
-    /* float: left; */
+    float: left;
     font-size: 16px;
     color: white;
     text-align: center;
-    padding: 4px 6px;
+    padding: 14px 16px;
     text-decoration: none;
   }
   
   .dropdown {
-    /* float: left; */
+    float: left;
     overflow: hidden;
   }
   
