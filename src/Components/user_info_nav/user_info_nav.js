@@ -57,7 +57,7 @@ function User_info_nav() {
                       </select>
                     </div>
                   </div>
-                  <div class="col-lg-3 col-md-6 col-sm-6">
+                  {/* <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="custom-control custom-switch" id="switch1">
                       <input
                         type="checkbox"
@@ -68,7 +68,7 @@ function User_info_nav() {
                         Remote Only
                       </label>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
