@@ -23,6 +23,10 @@ const Card = (props) => {
                 <CardItem/>
                 <CardItem/>
                 <CardItem/>
+                <CardItem/>
+                <CardItem/>
+                <CardItem/>
+                <CardItem/>
                 
             </div>
         </div>
